@@ -1,3 +1,68 @@
 *{
     margin: 0;
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Container central */
+    .container {
+        max-width: 400px;
+        margin: 40px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    
+    /* Título */
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    
+    /* Área de envio */
+    .box-envio {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    input {
+        flex: 1;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+    }
+    
+    /* Botão estilizado */
+    button {
+        background: #4facfe;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background: #0077ff;
+    }
+    
+    /* Lista */
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    /* Mensagens estilo chat */
+    li {
+        background: #f1f1f1;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
 }
